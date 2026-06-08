@@ -63,11 +63,11 @@ The five transfer dimensions are summarized below:
 
 | Dimension | Description |
 | --- | --- |
-| **Attribute** | Visual and physical properties of relevant entities. |
-| **Structure** | Spatial layout and object relations. |
-| **Function** | Object roles, affordances, and utility. |
-| **Procedure** | Task dependencies, state transitions, and operation order. |
-| **Interaction** | Executed actions, tool-use traces, and agent-environment routines. |
+| 🎨 **Attribute** | Visual and physical properties of relevant entities. |
+| 🧩 **Structure** | Spatial layout and object relations. |
+| 🛠️ **Function** | Object roles, affordances, and utility. |
+| 🔁 **Procedure** | Task dependencies, state transitions, and operation order. |
+| 🤝 **Interaction** | Executed actions, tool-use traces, and agent-environment routines. |
 
 ## 🎯 Tasks
 
