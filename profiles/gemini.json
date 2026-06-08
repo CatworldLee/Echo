@@ -1,0 +1,9 @@
+{
+    "name": "gemini",
+
+    "model": "gemini-2.5-pro",
+
+    "speak_model": "google/gemini-2.5-flash-preview-tts/Kore",
+
+    "cooldown": 2000
+}

@@ -1,0 +1,39 @@
+{ 
+    "crafting_wooden_pickaxe": {
+        "goal": "Craft a wooden pickaxe.",
+        "initial_inventory": {},
+        "agent_count": 1,
+        "target": "wooden_pickaxe",
+        "number_of_target": 1,
+        "type": "techtree", 
+        "timeout": 500
+      }, 
+    
+    "crafting_stick": {
+        "goal": "Craft sticks.",
+        "initial_inventory": {},
+        "agent_count": 1,
+        "target": "stick",
+        "number_of_target": 4,
+        "type": "techtree", 
+        "timeout": 500
+    },
+    "crafting_oak_log": {
+        "goal": "Get oak logs.",
+        "initial_inventory": {},
+        "agent_count": 1,
+        "target": "oak_log",
+        "number_of_target": 1,
+        "type": "techtree", 
+        "timeout": 500
+    },
+    "crafting_stone_pickaxe": {
+        "goal": "Craft a stone pickaxe.",
+        "initial_inventory": {},
+        "agent_count": 1,
+        "target": "stone_pickaxe",
+        "number_of_target": 1,
+        "type": "techtree", 
+        "timeout": 500
+      }
+}

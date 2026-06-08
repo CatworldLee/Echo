@@ -1,0 +1,127 @@
+{
+  "crafting_stick": {
+    "task_id": "crafting_stick",
+    "generated_at": "2025-11-02T14:43:46.458Z",
+    "meta": {
+      "agent_pos": [
+        -262.67,
+        73,
+        -210.53
+      ],
+      "facing": "west",
+      "time_step": 6776833,
+      "world_time": "dawn",
+      "biome": "savanna",
+      "task": "Craft sticks.",
+      "observed_objects": [
+        "grass_block",
+        "dirt_block",
+        "tree",
+        "leaves",
+        "sky"
+      ]
+    },
+    "attr": {
+      "grass_block": {
+        "color": "green top with brown sides",
+        "shape": "cube",
+        "texture": "pixelated grass texture on top, dirt-like texture on sides"
+      },
+      "dirt_block": {
+        "color": "brown",
+        "shape": "cube",
+        "texture": "rough earthy surface"
+      },
+      "tree": {
+        "color": "brown trunk with green leaves",
+        "shape": "vertical trunk with bushy canopy",
+        "texture": "wooden bark and pixelated foliage"
+      },
+      "leaves": {
+        "color": "green",
+        "shape": "irregular cluster",
+        "texture": "blocky leaf pattern"
+      },
+      "sky": {
+        "color": "light blue with white clouds",
+        "shape": "flat plane above terrain",
+        "texture": "smooth gradient with cloud patterns"
+      }
+    },
+    "struct": "The Agent is positioned in a grassy biome with scattered trees. Grass blocks cover the ground, interspersed with dirt blocks. Trees with brown trunks and green leaf canopies are distributed across the landscape. The sky is visible above, indicating daytime.",
+    "func": {
+      "grass_block": "Provides terrain cover and can be broken to obtain seeds or used for building.",
+      "dirt_block": "Basic terrain block that can be used for farming or construction.",
+      "tree": "Source of wood through harvesting; provides shelter and shade.",
+      "leaves": "Decorative element that drops saplings when broken; can be used for crafting.",
+      "sky": "Environmental backdrop indicating time of day and weather conditions."
+    },
+    "proc": "The Agent identifies and navigates to an oak_log at coordinates (-262, 73, -211), collects it, then sequentially crafts it into oak_planks and finally into sticks using the game’s crafting system, completing the task with a score of 1.",
+    "Inter": {
+      "detailed": "Standing in the dawn-lit savanna facing west, the Agent observes green grass blocks, scattered dirt, towering trees with leafy canopies, and a light blue sky. It locates an oak_log slightly ahead, moves to it without disturbing the terrain, harvests the log, opens its inventory, converts the log into four oak_planks, and then crafts those planks into four sticks, hearing satisfying crafting sounds with each step before declaring completion.",
+      "summary": "The Agent gathers wood and crafts it into sticks to complete the task.",
+      "hist": [
+        "Found oak_log at (-262, 73, -211) and navigated to it.",
+        "Collected 1 oak_log.",
+        "Crafted 1 oak_planks, resulting in 4 oak_planks.",
+        "Crafted 1 stick, resulting in 4 sticks.",
+        "Task completed with score: 1."
+      ]
+    }
+  },
+  "crafting_wooden_pickaxe": {
+    "task_id": "crafting_wooden_pickaxe",
+    "generated_at": "2025-11-04T08:28:58.258Z",
+    "meta": {
+      "agent_pos": [
+        -261.43,
+        72,
+        -210.51
+      ],
+      "facing": "west",
+      "time_step": 7205885,
+      "world_time": "dawn",
+      "biome": "savanna",
+      "task": "Craft a wooden pickaxe.",
+      "observed_objects": [
+        "furnace",
+        "iron_ore",
+        "charcoal"
+      ]
+    },
+    "attr": {
+      "furnace": {
+        "color": "gray",
+        "shape": "cube",
+        "texture": "rough stone surface"
+      },
+      "iron_ore": {
+        "color": "gray base with brown-orange spots",
+        "shape": "irregular block",
+        "texture": "rough rocky texture"
+      },
+      "charcoal": {
+        "color": "black",
+        "shape": "small cube",
+        "texture": "smooth, dark matte surface"
+      }
+    },
+    "struct": "There is a furnace one block in front of the Agent. Iron ore is placed in the top slot, charcoal in the bottom slot.",
+    "func": {
+      "furnace": "A processing device used to convert ores and fuel into finished products.",
+      "iron_ore": "Raw material used as smelting input.",
+      "charcoal": "Fuel used to provide energy for smelting."
+    },
+    "proc": "The Agent begins by collecting 2 oak logs, which serve as the raw material. These logs are then converted into 8 oak planks through a crafting operation. Using 2 of those planks, the Agent crafts 8 sticks, establishing the necessary components for tool construction. Finally, combining 3 oak planks and 2 sticks in the correct configuration, the Agent successfully crafts a wooden pickaxe, completing the task objective.",
+    "Inter": {
+      "detailed": "Standing in the quiet savanna at dawn, the Agent gathers two oak logs from nearby trees. With the logs in inventory, the Agent opens the crafting menu and converts them into eight smooth oak planks. Next, using two of those planks, the Agent crafts eight slender sticks. With both planks and sticks ready, the Agent arranges them in the crafting grid—three planks across the top row and two sticks vertically beneath the center plank—to assemble a wooden pickaxe, which appears in the inventory with a satisfying crafting sound.",
+      "summary": "The Agent crafts a wooden pickaxe from oak logs by first making planks and sticks.",
+      "hist": [
+        "Collected 2 oak_log.",
+        "Crafted 8 oak_planks from 2 oak logs.",
+        "Crafted 8 sticks from 2 oak planks.",
+        "Crafted 1 wooden_pickaxe using 3 oak planks and 2 sticks."
+      ]
+    }
+  }
+}

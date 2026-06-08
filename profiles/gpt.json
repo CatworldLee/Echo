@@ -1,0 +1,12 @@
+{
+    "name": "gpt",
+
+    "model": {
+        "model": "gpt-5",
+        "params": {
+            "reasoning": {
+                "effort": "low"
+            }
+        }
+    }
+}
