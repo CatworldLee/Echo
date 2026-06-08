@@ -1,5 +1,5 @@
 <p align="center">
-<h1 align="center"> <img src="assets/logo.png" alt="Echo logo" width="40px" style="vertical-align: middle;"> Echo: Experience Transfer for Multimodal LLM Agents in Minecraft Game</h1>
+<h1 align="center"> <img src="assets/logo.png" alt="Echo logo" width="80px" style="vertical-align: middle;"> : Experience Transfer for Multimodal LLM Agents in Minecraft Game</h1>
 </p>
 
 <p align="center">
